@@ -45,4 +45,4 @@ build/
 *.log
 
 # Ignore local environment configs
-application.properties  # If this file contains sensitive info or environment-specific settings
+bot/src/main/resources/application.properties

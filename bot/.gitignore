@@ -1,10 +1,19 @@
-HELP.md
+# Ignore the following files and directories
+
+# Compiled class files
+*.class
+
+# Maven build output
 target/
+
+# Ignore Maven wrapper jar (keep the wrapper)
 !.mvn/wrapper/maven-wrapper.jar
+
+# Ignore all other target directories in source directories
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+### STS (Spring Tool Suite) ###
 .apt_generated
 .classpath
 .factorypath
@@ -14,7 +23,7 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -31,3 +40,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignore log files
+*.log
+
+# Ignore local environment configs
+application.properties  # If this file contains sensitive info or environment-specific settings
